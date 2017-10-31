@@ -1,17 +1,43 @@
-.titlehead {
-    display: flex;
-    align-items: center;
+header {
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
+    position: fixed;
+    display: flex;
+    height: 80px;
+    width: 100%
 }
-
-.titlehead p {
-    color: mediumaquamarine;
+.logo {
+    height: 80px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 30px
 }
-
-
-.titlehead nav {
-    display: inline-block;
-
+.logo img {
+    margin-right: 12px;
+    max-width: 70px;
+    max-height: 60px
+}
+.logo p {
+    color: mediumaquamarine
+}
+#navigation {
+    height: 80px;
+    width: 300px;
+    padding-right: 40px;
+    display: flex
+}
+#navigation span {
+    padding: 20px 10px;
+    display: inline-block
+}
+a {
+    color: black
+}
+a:hover {
+    color: mediumaquamarine
+}
+a:visited {
+    color: black
 }
