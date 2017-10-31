@@ -1,3 +1,17 @@
-p{
-    color: blueviolet;
+.titlehead {
+    display: flex;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titlehead p {
+    color: mediumaquamarine;
+}
+
+
+.titlehead nav {
+    display: inline-block;
+
 }
